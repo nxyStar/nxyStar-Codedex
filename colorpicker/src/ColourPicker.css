@@ -1,0 +1,30 @@
+div .color-list {
+    display:flex !important;
+}
+
+.color-list {
+    flex-direction: row;
+}
+
+.color-item {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 25px;
+    padding: 2em;
+}
+
+.color-item.focused {
+    border: 2px solid rgb(174, 0, 255);
+}
+
+.color-item:hover {
+    height: 105px;
+    width: 105px;
+}
+
+.color-code {
+    color:white;
+    height:50%;
+    text-align: center;
+}
